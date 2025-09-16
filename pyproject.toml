@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vessel-anomaly-detection"
+version = "0.1.0"
+description = "Contextual anomaly detection on vessel AIS data"
+authors = [
+  { name = "Huub Van de Voort" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
